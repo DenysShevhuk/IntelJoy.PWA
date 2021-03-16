@@ -1,0 +1,11 @@
+<app-header></app-header>
+<div class="container-header">
+  <div class="staff about-author d-flex p-4 bg-light " *ngFor="let favorite of favorites">
+    <img src="{{favorite.src}}" alt="Rulers" class="staff-img col-3">
+    <div class="desc text pt-3 px-3 pb-4 bg-light">
+      <h3>{{favorite.title}}</h3>
+      <p>{{favorite.text}}</p>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

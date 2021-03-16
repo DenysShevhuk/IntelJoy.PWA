@@ -1,0 +1,13 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" [routerLink]="['/home']"><img src="assets\images\icon.png" alt="logo">IntelJoy</a>
+
+      <a [routerLink]="['/home']" class="nav-link account-link">
+        <img class="nav-link-icon" src="assets\images\avatar.svg" alt="Account">
+        {{userDisplayName | slice:0 }}
+      </a>
+      <!-- </button> -->
+    </div>
+  </nav>
+</header>

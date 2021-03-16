@@ -1,0 +1,385 @@
+footer{
+  background: #F4F0EF;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  overflow: hidden;
+  padding: 0.5em;
+  text-align: center;
+  justify-content: space-between;
+
+
+}
+ul{
+  list-style-type: none;
+  padding-inline-start: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+li{
+  background: transparent;
+  font-size: 10px;
+  font-family: "Montserrat", Arial, sans-serif;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: normal;
+  border: none;
+  line-height: 0.85rem;
+  margin: 0 1px 0 1px;
+  a{
+    text-align: center;
+    color: chocolate;
+    text-decoration: none;
+    padding: 0 0 1rem 0;
+  }
+  a:hover{
+    font-weight: 600;
+  }
+  span {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) {
+  footer{
+    width: 100px;
+    top: 67px;
+  }
+  ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+    display: block;
+  }
+  li{
+    background: transparent;
+    font-size: 16px;
+    font-family: "Montserrat", Arial, sans-serif;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: normal;
+    padding: 0 0 1rem 0;
+    border: none;
+    line-height: 0.85rem;
+    a{
+      text-align: center;
+      color: chocolate;
+      text-decoration: none;
+      padding: 0 0 1rem 0;
+    }
+    span{
+      display: none;
+      padding: 1rem 0 1rem 1rem;
+    }
+    a:hover{
+      font-weight: 600;
+    }
+  }
+  .section-footer__span{
+    display: none;
+  }
+}
+
+@media (min-width: 993px) {
+  footer{
+    background: #F4F0EF;
+    position: fixed;
+    top: 67px;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: 101;
+    overflow: hidden;
+    padding: 0.5em;
+    text-align: left;
+    width: 250px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float: right;
+    justify-content: space-between;
+  }
+  ul{
+    list-style-type: none;
+    padding-inline-start: 20px;
+    display: block;
+  }
+  li{
+    background: transparent;
+    font-size: 16px;
+    font-family: "Montserrat", Arial, sans-serif;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: normal;
+    padding: 0 0 1rem 0;
+    border: none;
+    line-height: 0.85rem;
+    a{
+      text-align: center;
+      color: chocolate;
+      text-decoration: none;
+      padding: 0 0 1rem 0;
+    }
+    span{
+      display: inline-block;
+      padding: 1rem 0 1rem 1rem;
+    }
+    a:hover{
+      font-weight: 600;
+    }
+  }
+}
+
+.blue {
+  fill: #ACEBE2;
+}
+
+.white {
+  fill: #F4F0EF
+}
+
+.active {
+  fill: #ACEBE2;
+  font-weight: 600;
+
+}
+
+.learColor {
+  fill: #955BA5;
+}
+
+.learColorRed {
+  fill: #FF5364;
+}
+
+.learColorBrown {
+  fill: #805333;
+}
+
+.learColorYellow {
+  fill: #F9EAB0;
+}
+
+.learColorQ {
+  fill: #955BA5;
+}
+
+.learColorRedQ {
+  fill: #FF5364;
+}
+
+.learColorBrownQ {
+  fill: #805333;
+}
+
+.learColorYellowQ {
+  fill: #F9EAB0;
+}
+
+.exerciseColor{
+  fill: #F4F1E1;
+}
+.exerciseColorRed{
+  fill: #FF7878;
+}
+.exerciseColorBlu{
+  fill: #8389AA;
+}
+.exerciseColorRedRed{
+  fill:  #F4536F;
+}
+.exerciseColorOrange{
+  fill: #FFC46E;
+}
+.exerciseColorYal{
+  fill: #FFE36C;
+}
+.exerciseColorGrin{
+  fill: #646D91;
+  //#F4E5CB
+}
+
+.exerciseColorYall{
+  fill: #F4E5CB;
+}
+
+.exerciseColorQ{
+  fill: #F4F1E1;
+}
+.exerciseColorRedQ{
+  fill: #FF7878;
+}
+.exerciseColorBluQ{
+  fill: #8389AA;
+}
+.exerciseColorRedRedQ{
+  fill:  #F4536F;
+}
+.exerciseColorOrangeQ{
+  fill: #FFC46E;
+}
+.exerciseColorYalQ{
+  fill: #FFE36C;
+}
+.exerciseColorGrinQ{
+  fill: #646D91;
+  //#F4E5CB
+}
+
+.exerciseColorYallQ{
+  fill: #F4E5CB;
+}
+
+
+
+.achievementQ{
+  fill: #3E3D43;
+}
+.achievementL{
+  fill: #3E3D43;
+}
+.achievementW{
+  fill: #77767E;
+}
+.achievementM{
+  fill: #77767E;
+}
+.achievementE{
+  fill: #444444;
+}
+.achievementN{
+  fill: #444444;
+}
+.achievementR{
+  fill: #3E3D43;
+}
+.achievementB{
+  fill: #3E3D43;
+}
+
+.achievementY{
+  fill: #DDB201;
+}
+.achievementV{
+  fill: #DDB201;
+}
+.achievementU{
+  fill: #FECE00;
+}
+.achievementZ{
+  fill: #FECE00;
+}
+.achievementI{
+  fill: #DDB201;
+}
+.achievementK{
+  fill: #DDB201;
+}
+.achievementO{
+  fill: #EEBF00;
+}
+.achievementX{
+  fill: #EEBF00;
+}
+.achievementP{
+  fill: #FEDA44;
+}
+.achievementJ{
+  fill: #FEDA44;
+}
+.achievementA{
+  fill: #CBA400;
+}
+.achievementC{
+  fill: #CBA400;
+}
+
+
+.wheelQ{
+  fill: #DC4955;
+}
+.wheelT{
+  fill: #D82F3C;
+}
+.wheelW{
+  fill: #F8E837;
+}
+.wheelY{
+  fill: #F3D332;
+}
+.wheelE{
+  fill: #B2E5FB;
+}
+.wheelR{
+  fill: #91DAFA;
+}
+.wheelU{
+  fill: #E592D0;
+}
+.wheelI{
+  fill: #E172C1;
+}
+.wheelO{
+  fill: #E3E0E4;
+}
+.wheelP{
+  fill: #C8C3CA;
+}
+.wheelA{
+  fill: #B7E546;
+}
+.wheelS{
+  fill: #ABD641;
+}
+.wheelD{
+  fill: #2C4D66;
+}
+.wheelF{
+  fill: #2C4D66;
+}
+
+
+
+.wheelQQ{
+  fill: #DC4955;
+}
+.wheelTT{
+  fill: #D82F3C;
+}
+.wheelWW{
+  fill: #F8E837;
+}
+.wheelYY{
+  fill: #F3D332;
+}
+.wheelEE{
+  fill: #B2E5FB;
+}
+.wheelRR{
+  fill: #91DAFA;
+}
+.wheelUU{
+  fill: #E592D0;
+}
+.wheelII{
+  fill: #E172C1;
+}
+.wheelOO{
+  fill: #E3E0E4;
+}
+.wheelPP{
+  fill: #C8C3CA;
+}
+.wheelAA{
+  fill: #B7E546;
+}
+.wheelSS{
+  fill: #ABD641;
+}
+.wheelDD{
+  fill: #2C4D66;
+}
+.wheelFF{
+  fill: #2C4D66;
+}
