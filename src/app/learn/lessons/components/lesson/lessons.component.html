@@ -1,0 +1,85 @@
+<app-header></app-header>
+<section class="ftco-section bg-white" xmlns="http://www.w3.org/1999/html">
+    <div class="container">
+        <h3 class="lesson-h">{{learn.title}}</h3>
+    </div>
+    <div class="lesson-img">
+        <img src="{{learn.src}}" alt="Simple number" class="staff-img">
+    </div>
+    <!-- <h3>Прості числа</h3> -->
+    <!-- <div class="row align-items-stretch"> -->
+    <div class="staff about-author d-flex p-4 bg-light card-bg" [routerLink]="['/learn', learn.id]">
+
+        <img src="./assets/icon/agenda_100.svg" alt="Rulers" class="staff-img col-1">
+
+        <div class="desc text pt-3 px-3 pb-3 bg-light">
+            <!-- <h3>Rulers</h3> -->
+            <h4>Набір чисел {{learn.name}}</h4>
+        </div>
+    </div>
+    <div class="staff about-author d-flex p-4 bg-light card-bg">
+
+        <img src="./assets/icon/agenda_80.svg" alt="Rulers" class="staff-img col-1">
+
+        <div class="desc text pt-3 px-3 pb-3 bg-light">
+            <!-- <h3>Rulers</h3> -->
+            <h4>Набір чисел {{learn.number}}</h4>
+        </div>
+    </div>
+    <div class="staff about-author d-flex p-4 bg-light card-bg">
+
+        <img src="./assets/icon/agenda_started.svg" alt="Rulers" class="staff-img col-1">
+
+        <div class="desc text pt-3 px-3 pb-3 bg-light">
+            <!-- <h3>Rulers</h3> -->
+            <h4>Просте додавання {{learn.fiveAdditions}}</h4>
+        </div>
+    </div>
+    <div class="staff about-author d-flex p-4 bg-light card-bg">
+
+        <img src="./assets/icon/agenda_disabled.svg" alt="Rulers" class="staff-img col-1">
+
+        <div class="desc text pt-3 px-3 pb-3 bg-light">
+            <!-- <h3>Rulers</h3> -->
+            <h4>Просте додавання {{learn.sixAdditions}}</h4>
+        </div>
+    </div>
+    <div class="staff about-author d-flex p-4 bg-light card-bg-disabled">
+
+        <img src="./assets/icon/agenda_disabled.svg" alt="Rulers" class="staff-img col-1">
+
+        <div class="desc text pt-3 px-3 pb-3 bg-light">
+            <!-- <h3>Rulers</h3> -->
+            <h4>Просте додавання {{learn.sevenAdditions}}</h4>
+        </div>
+    </div>
+    <div class="staff about-author d-flex p-4 bg-light card-bg-disabled">
+
+        <img src="./assets/icon/agenda_disabled.svg" alt="Rulers" class="staff-img col-1">
+
+        <div class="desc text pt-3 px-3 pb-3 bg-light">
+            <!-- <h3>Rulers</h3> -->
+            <h4>Просте додавання {{learn.eightAdditions}}</h4>
+        </div>
+    </div>
+    <div class="staff about-author d-flex p-4 bg-light card-bg-disabled">
+
+        <img src="./assets/icon/agenda_disabled.svg" alt="Rulers" class="staff-img col-1">
+
+        <div class="desc text pt-3 px-3 pb-3 bg-light">
+            <!-- <h3>Rulers</h3> -->
+            <h4>Просте додавання {{learn.nineAdditions}}</h4>
+        </div>
+    </div>
+    <div class="staff about-author d-flex p-4 bg-light card-bg-disabled" >
+
+        <img src="./assets/icon/agenda_disabled.svg" alt="Rulers" class="staff-img col-1">
+
+        <div class="desc text pt-3 px-3 pb-3 bg-light">
+            <!-- <h3>Rulers</h3> -->
+            <h4>{{learn.test}}</h4>
+        </div>
+    </div>
+    <!-- </div> -->
+</section>
+<app-footer></app-footer>
